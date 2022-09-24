@@ -20,16 +20,16 @@
             <div class="col-md-7">
                 <div class="form-group">
                     <label for="inpnewtask">New task</label>
-                    <input type="text" class="form-control" id="inpnewtask" aria-describedby="newtaskhelp" placeholder="Enter task">
+                    <input type="text" class="form-control" id="inpnewtask" aria-describedby="newtaskhelp" spellcheck="false" placeholder="Enter task">
                     <small id="newtaskhelp" class="form-text text-muted">A sort one line description of your task.</small>
                 </div>
             </div>
             <div class="col-md-5 row">
                 <div class="col-6 col-sm-3 col-md-6 p-1">
-                    <button type="button" class="btn btn-primary col" id="btnadd"><i class="fa-solid fa-plus"></i>Add</button>
+                    <button type="button" class="btn btn-primary col" disabled id="btnadd"><i class="fa-solid fa-plus"></i>Add</button>
                 </div>
                 <div class="col-6 col-sm-3 col-md-6 p-1">
-                    <button type="button" class="btn btn-danger col" id="btnclear"><i class="fa-solid fa-eraser"></i>Clear</button>
+                    <button type="button" class="btn btn-danger col" disabled id="btnclear"><i class="fa-solid fa-eraser"></i>Clear</button>
                 </div>
                 <div class="col-6 col-sm-3 col-md-6 p-1">
                     <button type="button" class="btn btn-success col" id="btnsort"><i class="fa-solid fa-sort"></i>Sort</button>
