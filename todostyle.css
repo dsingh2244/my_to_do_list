@@ -1,0 +1,8 @@
+#ultask li.done {
+    color: rgb(145, 151, 158);
+    text-decoration: line-through;
+}
+
+body {
+    background-color: aquamarine;
+}
